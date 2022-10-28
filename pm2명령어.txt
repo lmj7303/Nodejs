@@ -1,0 +1,11 @@
+npx pm2 start [서퍼파일명] --watch 
+ -> 서버실행 * --watch옵션
+
+npx pm2 kill
+ -> 전체서버파일중지
+
+npx pm2 list 
+ -> 실행되고있는 서버파일확인
+
+npx pm2 monit
+ -> 실행되고있는 서버파일 모니터링
